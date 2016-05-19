@@ -16,6 +16,11 @@ public class ModuloBaliza {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        WSpromociones ws = new WSpromociones();
+        String idCliente = "USERNAME BACAN";
+        String idZona = "ZONA G";
+        String result = ws.getWSpromocionesSoap().registrarMovimientoUsuario(idCliente, idZona);
+        System.out.println(result);
     }
     
 }

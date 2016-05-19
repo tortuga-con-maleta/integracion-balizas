@@ -240,3 +240,5 @@ _Pvt_Extensions
 /ModuloBaliza/build/
 /balizaWS/nbproject/private/
 /balizaWS/build/
+/balizaWS/dist
+/ModuloBaliza/dist/

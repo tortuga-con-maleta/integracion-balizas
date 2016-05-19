@@ -20,7 +20,7 @@ public class WSpromociones : System.Web.Services.WebService {
     }
 
     [WebMethod]
-    public string enviarPromocion(string idCliente) {
+    public string registrarMovimientoUsuario(string idCliente, string idZona) {
         return "Promocion:este es el mensaje :D";
     }
     

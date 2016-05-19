@@ -6,6 +6,7 @@ public class BalizaWS {
     @WebMethod(operationName="enviarPromocion")
     public String enviarPromocion(String idCliente, String textoPromocion)
     {        
+        System.out.println("Entrando en enviarPromocion");
         return "hola mundo";
     }    
 }

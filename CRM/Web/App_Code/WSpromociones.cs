@@ -21,8 +21,10 @@ public class WSpromociones : System.Web.Services.WebService {
 
     [WebMethod]
     public string registrarMovimientoUsuario(string idCliente, string idZona) {
+        Console.WriteLine("entrando en registrarMovimientoUsuario");
         BalizaReference.BalizaWSClient balizaWSClient = new BalizaReference.BalizaWSClient();
         balizaWSClient.enviarPromocion(idCliente, "Este es el texto de la promoción");
+        
         return "Promocion:este es el mensaje :D";
     }
     

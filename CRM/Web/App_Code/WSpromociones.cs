@@ -27,5 +27,12 @@ public class WSpromociones : System.Web.Services.WebService {
         
         return "Promocion:este es el mensaje :D";
     }
+
+    [WebMethod]
+    public bool wsPuerta(string idCliente, string idPuerta)
+    {
+        
+        return true;
+    }
     
 }
